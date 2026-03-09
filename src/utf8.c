@@ -15,11 +15,10 @@
 // Author: jdtang@google.com (Jonathan Tang)
 
 #include "utf8.h"
+#include "windows_compat.h"
 
 #include <assert.h>
 #include <stdint.h>
-#include <string.h>
-#include <strings.h>  // For strncasecmp.
 
 #include "error.h"
 #include "gumbo.h"

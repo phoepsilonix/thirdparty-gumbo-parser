@@ -15,11 +15,10 @@
 // Author: jdtang@google.com (Jonathan Tang)
 
 #include "string_buffer.h"
+#include "windows_compat.h"
 
 #include <assert.h>
 #include <stdlib.h>
-#include <string.h>
-#include <strings.h>
 
 #include "string_piece.h"
 #include "util.h"

@@ -14,12 +14,11 @@
 //
 // Author: jdtang@google.com (Jonathan Tang)
 
+#include "windows_compat.h"
 #include <assert.h>
 #include <ctype.h>
 #include <stdarg.h>
 #include <stdlib.h>
-#include <string.h>
-#include <strings.h>
 
 #include "attribute.h"
 #include "error.h"

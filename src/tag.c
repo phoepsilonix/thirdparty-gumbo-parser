@@ -15,10 +15,10 @@
 // Author: jdtang@google.com (Jonathan Tang)
 
 #include "gumbo.h"
+#include "windows_compat.h"
 
 #include <assert.h>
 #include <ctype.h>
-#include <string.h>
 
 const char* kGumboTagNames[] = {
 #include "tag_strings.h"
